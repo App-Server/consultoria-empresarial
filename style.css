@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&family=Ubuntu:wght@400;500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', 'ubuntu' sans-serif;
+}
+
+.nav-menu {
+    display: flex;
+    padding: 0 100px;
+    background-color: #001349;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+}
+
+.logo {
+    width: 100%;
+    padding: 8px;    
+}
+
+.menu {
+    width: 80%;
+    text-align: right;
+    padding: 22px;
+    padding-right: 20px;
+}
+
+.menu a {
+    color: #fff;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 20px;
+    margin-right: 25px;
+}
+
+.banner .banner-1 {
+    width: 50%;
+    margin-left: 50%;    
+}
+
+.banner {
+    background-color: #001349;
+}
+
+.Somos {
+    width: 30%;
+    margin-left: 180px;
+    text-align: justify;
+    margin-top: -210px;
+    color: #fff;    
+}
+
+.parceiros {
+   width: 80%;
+   margin-left: auto;
+   margin-top: 150px;
+}
+
+.parceiros .text-2 {
+    margin-left: 250px;
+    font-size: 40px;
+    color: #001349;
+}
+
+.serviços {
+    width: 100%;
+    text-align: center;
+    margin-top: 90px;
+    font-size: 20px;
+}
+
+.serviços .text-3 {
+    color: #001349;
+}
+
+.bloco-card {
+    width: 80%;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card {
+    width: 20%;
+    margin-left: 120px;
+    text-align: justify;
+    margin-top: 50px;    
+}
+
+.card .text-card {
+    color: #001349;
+}
+
+.clientes {
+    width: 100%;
+    text-align: center;
+    margin-top: 90px;
+    font-size: 20px;
+}
+
+.clientes .text-5 {
+    color: #001349;
+}
+
+.ultimo {
+    width: 100%;
+    text-align: center;
+    margin-top: 90px;
+    font-size: 20px;
+}
+
+.ultimo .text-6 {
+    color: #001349;
+}
+
+.ultima-img {
+    width: 80%;
+    display: flex;
+    margin-left: auto;
+    margin-top: 100px;
+    align-items: center;
+}
+
+.ultima-img img {
+    border-radius: 6px;
+}
+
+.ultima-img .text-10 {
+    text-align: justify;
+    margin-right: 50px;
+    font-size: 20px;
+}
