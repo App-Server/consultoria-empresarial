@@ -134,3 +134,43 @@
     margin-right: 50px;
     font-size: 20px;
 }
+
+.whatsapp {
+    position: fixed;
+    top: 82%;
+    right: 1%;
+    padding: 10px;
+    z-index: 10000000;
+}
+
+footer {
+    margin-top: 300px;
+    width: 100%;
+    background: #001349;
+}
+
+.main-content {
+    display: flex;
+}
+
+.main-content .box {
+    flex-basis: 60%;
+    padding: 10px;
+}
+
+.box h2 {
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #fff;
+    margin-left: 220px;
+}
+
+.box .content p {
+    color: #fff;
+}
+
+.box .content {
+    margin-left: 220px;
+    position: relative;
+}
